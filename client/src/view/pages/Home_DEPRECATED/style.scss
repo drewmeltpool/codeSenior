@@ -1,0 +1,159 @@
+#hex1,
+#hex2,
+#hex3,
+#hex4 {
+  height: 200px;
+  width: 240px;
+}
+
+#hex1 path,
+#hex2 path,
+#hex3 path,
+#hex4 path {
+  stroke: #e1e3ef;
+  fill: none;
+}
+
+#hex1,
+#hex2,
+#hex3 {
+  position: absolute;
+  z-index: -1;
+}
+
+#hex1 {
+  top: 90px;
+  left: -80px;
+  transform: rotate(90deg) scale(0.7);
+}
+
+#hex2 {
+  top: 290px;
+  left: -30px;
+  transform: rotate(90deg) scale(0.9);
+}
+
+#hex3 {
+  right: 0;
+  bottom: 60px;
+  transform: rotate(90deg);
+}
+
+.homepage h2,
+.homepage h3 {
+  text-align: center;
+}
+
+.splitContent {
+  margin: 2rem 0;
+  width: 2.3rem;
+  border: 3px solid #2d6ff7;
+  border-radius: 40px;
+}
+
+.scrollDown {
+  border: none;
+  background: none;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.firstArrow,
+.secondArrow {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 86px;
+  top: 60px;
+  transform: scale(1.4, 1) rotate(90deg);
+}
+
+.secondArrow {
+  top: 80px;
+}
+
+#hex4 {
+  transform: rotate(90deg);
+}
+
+.scrollDown:hover #hex4 > path {
+  stroke: #2d6ff7;
+}
+
+.contact__form {
+  padding: 32px;
+  background-color: #fff;
+  flex: 1;
+  width: 100%;
+  max-width: 540px;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.contact-form__title {
+  padding: 20px 0;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: left;
+}
+
+.work__number {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  margin-right: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #3b72ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work__list {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.work__item {
+  display: flex;
+  align-items: center;
+}
+
+.work__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.work__text {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.logo__list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.logo__item {
+  display: flex;
+  padding: 15px;
+}
+
+.logo__image-wrapper {
+  width: 150px;
+}
+
+.logo__image {
+  margin: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@import './components/Feature/style.scss';

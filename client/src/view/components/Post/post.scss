@@ -1,0 +1,93 @@
+.post-list {
+  padding: 32px 0;
+
+  & > *:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+.post {
+  display: flex;
+  gap: 12px;
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 16px;
+  box-shadow: 12px 12px 0px rgba(212, 212, 212, 0.2);
+
+  &-inner {
+    & > *:not(:last-child) {
+      margin-bottom: 12px;
+    }
+    flex: 1;
+  }
+
+  &-company {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    &-name {
+      display: flex;
+      gap: 4px;
+      flex-direction: column;
+    }
+  }
+
+  &-title {
+    line-height: 24px;
+    font-size: 24px;
+    padding-bottom: 6px;
+  }
+
+  &-description {
+    font-size: 18px;
+  }
+
+  &-link {
+    transition: 0.3s;
+    padding-bottom: 4px;
+    display: inline-block;
+    border-bottom: 4px dotted #dbdbdb;
+    &:hover {
+      color: #3b72ee;
+      border-color: #3b72ee;
+    }
+  }
+
+  &-head {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    &-inner {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &-auth-image {
+    margin-right: 12px;
+  }
+
+  &-date {
+    padding: 4px 0;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  &-content {
+    padding: 12px 6px;
+  }
+}
+
+.post--small {
+  & > *:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}

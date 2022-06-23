@@ -1,0 +1,14 @@
+.create-offer-stepper {
+    max-width: 768px;
+    width: 100%;
+}
+
+.jobs-form {
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 12px;
+}
+
+.jobs-form-navigation *:not(:last-child) {
+    margin-right: 20px;
+}

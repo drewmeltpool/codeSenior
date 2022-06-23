@@ -1,0 +1,15 @@
+export enum ETypes {
+  SET_DEVELOPER = 'developer/set',
+  DELETE_DEVELOPER_EDUCATION = 'developer/education/delete',
+  CREATE_DEVELOPER_EDUCATION = 'developer/education/create',
+  UPDATE_DEVELOPER_EDUCATION = 'developer/education/update',
+  DELETE_DEVELOPER_EXPERIENCE = 'developer/experience/delete',
+  CREATE_DEVELOPER_EXPERIENCE = 'developer/experience/create',
+  UPDATE_DEVELOPER_EXPERIENCE = 'developer/experience/update',
+  DELETE_DEVELOPER_TECH = 'developer/tech/delete',
+  CREATE_DEVELOPER_TECH = 'developer/tech/create',
+  UPDATE_DEVELOPER_TECH = 'developer/tech/update',
+  DELETE_DEVELOPER_LANGUAGE = 'developer/language/delete',
+  CREATE_DEVELOPER_LANGUAGE = 'developer/language/create',
+  UPDATE_DEVELOPER_LANGUAGE = 'developer/language/update',
+}

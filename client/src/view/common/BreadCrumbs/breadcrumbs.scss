@@ -1,0 +1,26 @@
+.breadcrumb-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+  padding-bottom: 32px;
+
+  & > *:not(:last-child) {
+    margin-right: 12px;
+  }
+}
+
+.breadcrumb-list {
+  display: flex;
+}
+
+.breadcrumb-item {
+  margin-right: 15px;
+  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.breadcrumb-item:not(:last-child):after {
+  content: '/';
+  margin-left: 15px;
+}

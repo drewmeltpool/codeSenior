@@ -1,0 +1,31 @@
+.logo {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.logo-short-title {
+  display: flex;
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: #3b72ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 4px;
+  font-weight: 900;
+}
+
+.logo-title {
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 16px;
+}

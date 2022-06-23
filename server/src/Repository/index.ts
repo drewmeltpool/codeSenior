@@ -1,0 +1,11 @@
+export { default as userRepository } from './User';
+export { default as postRepository } from './Post';
+export { default as languageRepository } from './Language';
+export { default as technologyRepository } from './Technology';
+export { default as developerRepository } from './Developer';
+export { default as recruiterRepository } from './Recruiter';
+export { default as developerEducation } from './DeveloperEducation';
+export { default as developerExperience } from './DeveloperExperience';
+export { default as developerLanguage } from './DeveloperLanguage';
+export { default as developerTechnology } from './DeveloperTechnology';
+export { default as postConfirmRepository } from './PostConfirm';

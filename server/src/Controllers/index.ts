@@ -1,0 +1,11 @@
+export { default as userController } from './User';
+export { default as postController } from './Post';
+export { default as languageController } from './Language';
+export { default as technologyController } from './Technology';
+export { default as developerEducation } from './DeveloperEducation';
+export { default as developerExperience } from './DeveloperExperience';
+export { default as developerLanguage } from './DeveloperLanguage';
+export { default as developerTechnology } from './DeveloperTechnology';
+export { default as recruiterController } from './Recruiter';
+export { default as developerController } from './Developer';
+export { default as postConfirmController } from './PostConfirm';

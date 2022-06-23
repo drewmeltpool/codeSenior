@@ -1,0 +1,36 @@
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  overflow: hidden;
+}
+
+.avatar--sm {
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+}
+
+.avatar--md {
+  width: 64px;
+  min-width: 64px;
+  height: 64px;
+  font-size: 24px;
+  border-radius: 18px;
+}
+
+.avatar--lg {
+  min-width: 180px;
+  width: 180px;
+  height: 180px;
+  font-size: 64px;
+  border-radius: 36px;
+}

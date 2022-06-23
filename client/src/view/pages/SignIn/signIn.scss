@@ -1,0 +1,9 @@
+.sign-form {
+  flex: 1;
+}
+
+@media (max-width: 767px) {
+  .sign-svg {
+    display: none;
+  }
+}

@@ -1,0 +1,39 @@
+.title {
+  font-family: 'Montserrat', sans-serif;
+
+  & > *:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+.title--primary {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 15px 0;
+}
+
+.title--secondary {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 32px;
+  margin: 8px 0;
+}
+
+.title--info {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.title--small {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.title--medium {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 24px;
+}

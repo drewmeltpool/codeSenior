@@ -1,0 +1,28 @@
+.create-profile-stepper {
+  padding: 50px 0;
+}
+
+.english-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 18px;
+}
+
+.english-level {
+  box-shadow: 12px 12px 0px rgba(212, 212, 212, 0.2);
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 2px solid #fff;
+
+  &:hover {
+    background-color: #fafafa;
+  }
+
+  &.checked {
+    border: 2px solid #3b72ee;
+    color: #3b72ee;
+    background-color: #fff;
+  }
+}

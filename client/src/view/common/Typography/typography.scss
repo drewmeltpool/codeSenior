@@ -1,0 +1,58 @@
+.typography {
+  color: inherit;
+
+  & > *:not(:last-child) {
+    margin-right: 12px;
+  }
+}
+
+.typography.h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.typography.h2 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.typography.h3 {
+  font-weight: 800;
+  font-size: 34px;
+}
+
+.typography.h4 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.typography.h5 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.typography.h6 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.typography.body1 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.typography.body2 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.typography.body-bold {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.typography.caption {
+  font-size: 13px;
+  font-weight: 700;
+}

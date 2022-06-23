@@ -1,0 +1,48 @@
+.work {
+  display: flex;
+}
+
+.work-year {
+  width: 100%;
+  max-width: 44px;
+  padding: 12px 0;
+}
+
+.work-content {
+  padding: 6px 0 24px 0;
+
+  & > *:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+
+.work-line {
+  width: 100%;
+  max-width: 36px;
+  padding-bottom: 24px;
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1px;
+    background-color: #333;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 14px;
+    background-color: #333;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+  }
+}

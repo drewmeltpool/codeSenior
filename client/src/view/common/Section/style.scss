@@ -1,0 +1,19 @@
+.section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 70px 0;
+}
+
+.section--center {
+  align-items: center;
+}
+
+.section__btn {
+  max-width: 100%;
+  width: 450px;
+  font-weight: 900;
+  margin: 35px 0;
+  font-size: 20px;
+  padding: 15px 10px;
+}

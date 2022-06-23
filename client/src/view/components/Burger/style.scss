@@ -1,0 +1,22 @@
+.burger {
+  display: none;
+  padding: 5px;
+}
+
+.line {
+  width: 28px;
+  height: 2px;
+  background-color: #333;
+}
+
+.line--medium {
+  width: 14px;
+}
+
+.line--short {
+  width: 8px;
+}
+
+.burger .line:not(:last-child) {
+  margin-bottom: 6px;
+}

@@ -1,0 +1,100 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  -webkit-text-fill-color: inherit;
+  box-shadow: 0 0 0px 1000px rgba(0, 0, 0, 0) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.input {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #333;
+  background-color: #fff;
+  border-radius: 8px;
+  flex: 1;
+
+  &-icon {
+    padding: 5px 0 5px 12px;
+    font-size: 20px;
+  }
+  &-value {
+    width: 100%;
+    flex: 1 1;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: transparent;
+  }
+  &-validation {
+    color: #db524e;
+    display: flex;
+    align-items: center;
+  }
+  &-validation-icon {
+    padding: 0 4px;
+  }
+}
+
+.input--primary {
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04),
+    0px 4px 16px rgba(51, 51, 51, 0.08);
+
+  .input-value {
+    font-size: 18px;
+    padding: 12px 14px;
+    font-weight: 500;
+  }
+  &.input--error {
+    background-color: #f9e3e3;
+  }
+  &.input--success {
+    background-color: #cbecd9;
+  }
+  .input-validation {
+    position: absolute;
+    bottom: -5px;
+    transform: translateY(100%);
+    left: 0;
+    font-size: 14px;
+  }
+  .input-placeholder {
+    color: #999;
+    font-size: 16px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-50%);
+  }
+  .input-placeholder-with-icon {
+    left: 42px;
+  }
+  .input-placeholder--active,
+  & .input-value[type='date'] ~ .input-placeholder,
+  & .input-value:focus ~ .input-placeholder {
+    font-size: 12px;
+    transform: translateY(-150%);
+    font-weight: 600;
+    color: #333;
+  }
+  &.input-with-placeholder .input-value {
+    padding: 18px 12px 6px 12px;
+  }
+}

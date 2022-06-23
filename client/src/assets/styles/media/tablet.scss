@@ -1,0 +1,25 @@
+@media (max-width: 1000px) {
+  .breadcrumb__item {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .menu {
+    display: none;
+  }
+
+  .menu__overlay {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .navbar-box {
+    display: none;
+  }
+}

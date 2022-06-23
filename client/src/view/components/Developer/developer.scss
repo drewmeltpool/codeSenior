@@ -1,0 +1,15 @@
+.developer-list {
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+}
+
+.developer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 16px;
+  box-shadow: 12px 12px 0px rgba(212, 212, 212, 0.2);
+}
